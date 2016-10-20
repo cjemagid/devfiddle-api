@@ -5,7 +5,7 @@ const Schema = mdb.Schema;
 
 
 var schema = new mdb.Schema( {
-    "id" : {type: String, default: shortid.generate()},
+    "id" : {type: String, default: shortid.generate}, 
     "app" : {type:String},
     "directory" : {type:String},
     "insert_time": { type: Date, default: Date.now },
